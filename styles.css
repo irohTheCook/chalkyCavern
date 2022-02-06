@@ -1,0 +1,52 @@
+html {
+    background-image: url("./static/images/background.png");
+    background-color: #eeeeee;
+    font-family: Roboto, serif;
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.link {
+    height: 75px;
+    line-height: 75px;
+    padding: 15px;
+    margin: 0 15px;
+}
+
+.main {
+    width: 100%;
+    height: 130vh;
+    background: url("./static/images/background.png") no-repeat fixed center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.right {
+    margin-right: 25px;
+}
